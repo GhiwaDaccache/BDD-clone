@@ -49,6 +49,7 @@
 
 .home-button{
     padding: 20px;
+    display: solid;
 }
 
 .home-button:hover{
@@ -60,7 +61,8 @@
     border-radius: 30px;
     height: 40px;
     margin: 15px;
-    padding: 25px;
+    padding: 5px 25px 5px 25px;
+    display: inline-block;
 }
 
 .hero-text{
@@ -70,5 +72,26 @@
     font-weight: 600;
     position: absolute;
     top: 60%;
-    left: 7%;
+    left: 5%;
+}
+
+.bars {
+    padding: 10px;
+    color: white;
+    display: none;
+  }
+
+@media (max-width: 920px){
+    .bars{
+        display: flex;
+    }
+
+    .home-button{
+        display: none;
+    }
+
+    .join-btn{
+        display: none;
+    }
+
 }
