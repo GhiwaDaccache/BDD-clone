@@ -9,9 +9,15 @@
     font-family: "The Mix";
     src: url(../assets/TheMixSemiBold.woff);
 }
+@font-face {
+    font-family: "The Mix Black";
+    src: url(../assets/TheMixBlack.woff)
+}
+
 .hero-image{
     background-image: url("../assets/Background image.jpg");
     height: 100vh;
+    position: relative;
 }
 
 .header{
@@ -34,25 +40,12 @@
 }
 
 .nav-buttons {
-    min-height: 60px;
+    height: 30px;
+    font-family: "The Mix";
+    align-items: center;
     list-style: none;
     gap: 20px;
   }
-
-.btn-container{
-    width: 60%;
-    justify-content: space-between;
-    align-items: center;
-    font-family: TheMixSemiBold-Plain;
-    font-size: 16px;
-    flex-wrap: wrap;
-    font-family: "The Mix";
-}
-
-.list{
-    justify-content: space-around;
-    list-style: none;
-}
 
 .home-button{
     padding: 20px;
@@ -63,10 +56,19 @@
     border-radius: 5px;
 }
 
-.join-bn{
+.join-btn{
     border-radius: 30px;
-    height: 30px;
+    height: 40px;
+    margin: 15px;
+    padding: 25px;
 }
 
-
-
+.hero-text{
+    font-family: "The Mix Black";
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    position: absolute;
+    top: 60%;
+    left: 7%;
+}
