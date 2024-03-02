@@ -90,8 +90,21 @@
 }
 
 .foundations{
-    
+    flex-wrap: wrap;
+    width: 100%;
 }
+
+.foyndation-card {
+    margin: 15px;
+    flex-grow: 1;
+    max-width: 220px;
+    width: 220px;
+    height: 513px;
+    box-shadow: 0 0 10px 0 #00000020;
+    border-radius: 0.35px;
+  }
+
+
 
 
 
