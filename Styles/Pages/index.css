@@ -33,6 +33,12 @@
     padding: 16px 0px 16px 0px;
 }
 
+.nav-buttons {
+    min-height: 60px;
+    list-style: none;
+    gap: 20px;
+  }
+
 .btn-container{
     width: 60%;
     justify-content: space-between;
@@ -41,16 +47,26 @@
     font-size: 16px;
     flex-wrap: wrap;
     font-family: "The Mix";
-    background-color: brown;
 }
 
 .list{
     justify-content: space-around;
     list-style: none;
-    background-color: aqua;
 }
 
 .home-button{
-    background-color: blue;
     padding: 20px;
 }
+
+.home-button:hover{
+    background-color: #ffffff33;
+    border-radius: 5px;
+}
+
+.join-bn{
+    border-radius: 30px;
+    height: 30px;
+}
+
+
+
