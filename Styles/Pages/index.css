@@ -79,7 +79,25 @@
     padding: 10px;
     color: white;
     display: none;
-  }
+}
+
+.foundations-title{
+    font-family: "The Mix";
+    text-align: center ;
+    height: 121.6px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.foundations{
+    
+}
+
+
+
+
+
+
 
 @media (max-width: 920px){
     .bars{
