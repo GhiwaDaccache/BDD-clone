@@ -15,9 +15,17 @@
 }
 
 .hero-image{
-    background-image: url("../assets/Background image.jpg");
+    background-image: url("../assets/Background image.jpg"), url("../assets/Background image 2.jpg"), url("../assets/Background image 3.jpg"), url("../assets/Background image 4.jpg")  ;
     height: 100vh;
     position: relative;
+    animation: switch 10s infinite;
+}
+
+@keyframes switch {
+    0% { background-image: url("../assets/Background image.jpg"); }
+    25% { background-image: url("../assets/Background image 2.jpg"); }
+    50% { background-image: url("../assets/Background image 3.jpg"); }
+    100% { background-image: url("../assets/Background image 4.jpg"); }
 }
 
 .header{
