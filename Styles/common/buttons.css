@@ -1,0 +1,25 @@
+.nav-buttons {
+    height: 30px;
+    font-family: "The Mix";
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+  }
+
+.home-button{
+    padding: 20px;
+    display: solid;
+}
+
+.home-button:hover{
+    background-color: #ffffff33;
+    border-radius: 5px;
+}
+
+.join-btn{
+    border-radius: 30px;
+    height: 40px;
+    margin: 15px;
+    padding: 5px 25px 5px 25px;
+    display: inline-block;
+}
