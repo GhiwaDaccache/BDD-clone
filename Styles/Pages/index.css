@@ -101,6 +101,7 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
+    padding: 0px 0px 70px 0px;
 }
 
 .foundation-card {
@@ -153,6 +154,20 @@
 
 .foundation-card:nth-child(5):hover{
     background-color: rgba(190, 112, 216, 0.268) ;
+}
+
+.video-section{
+    position: relative;
+}
+.bg-image{
+    width: 100%;
+}
+
+.explore-title{
+    font-family: "The Mix";
+    position: absolute;
+    text-align: center;
+    top: 5%;
 }
 
 
