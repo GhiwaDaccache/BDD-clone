@@ -159,6 +159,7 @@
 .video-section{
     position: relative;
 }
+
 .bg-image{
     width: 100%;
 }
@@ -166,10 +167,19 @@
 .explore-title{
     font-family: "The Mix";
     position: absolute;
-    text-align: center;
     top: 5%;
+    left: 40%;
+    font-size: 30px;
+    font-weight: 900;
 }
 
+.video{
+    width: 560px;
+    height: 315px;
+    position: absolute;
+    top: 20%;
+    left: 31%;
+}
 
 
 
