@@ -101,26 +101,23 @@
 }
 
 .video-section{
-    position: relative;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 440px;
 }
 
 .explore-title{
     font-family: "The Mix";
-    position: absolute;
-    top: 5%;
-    left: 40%;
     font-size: 30px;
     font-weight: 900;
 }
 
 .video{
-    width: 560px;
-    height: 315px;
-    position: absolute;
-    top: 20%;
-    left: 31%;
+    width: 505px;
+    height: 284px;
 }
-
 
 
 @media (max-width: 920px){

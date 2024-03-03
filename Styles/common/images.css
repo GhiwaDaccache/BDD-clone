@@ -28,5 +28,5 @@
 }
 
 .bg-image{
-    width: 100%;
+    background-image: url("../assets/BDD\ image.png") ;
 }
